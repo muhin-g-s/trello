@@ -1,0 +1,21 @@
+{
+  "extends" : [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["react-refresh"],
+  "rules": {
+    "react-refresh/only-export-components": [
+      "warn",
+      { "allowConstantExport": true }
+    ],
+    "no-console" : "warn",
+    "prefer-const" : "error",
+    //"quotes" : ["error", "prefer-double"],
+    "jsx-quotes" : ["error", "prefer-double"],
+    "comma-dangle" : ["error", "always-multiline"],
+    "semi" : ["error", "never"]
+  }
+}
